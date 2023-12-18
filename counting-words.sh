@@ -7,7 +7,7 @@
 #!/usr/bin/bash
 
 # path to the file
-file_path="C:\Users\DKOUSIK\PracticeDevops\Repos\shell-script\demo.txt"
+file_path="C:/Users/DKOUSIK/PracticeDevops/Repos/shell-script/demo.txt"
 
 # using wc command to count number of lines
 number_of_lines=`wc --lines < $file_path`
