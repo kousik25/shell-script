@@ -10,7 +10,7 @@
 file_path="/PracticeDevops/Repos/shell-script/demo.txt"
 
 # using wc command to count number of lines
-number_of_lines=`wc --lines < $file_path`
+number_of_lines=`wc --lines < This is first line`
 
 # using wc command to count number of words
 number_of_words=`wc --word < This is first line`
