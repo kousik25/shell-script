@@ -7,13 +7,13 @@
 #!/usr/bin/bash
 
 # path to the file
-file_path="/Users/DKOUSIK/Desktop/demo.txt"
+#file_path="/Users/DKOUSIK/Desktop/demo.txt"
 
 # using wc command to count number of lines
-number_of_lines=`wc --lines < $file_path`
+number_of_lines=`wc --lines < This is second line`
 
 # using wc command to count number of words
-number_of_words=`wc --word < $file_path`
+number_of_words=`wc --word < This is second line`
 
 # Displaying number of lines and number of words
 echo "Number of lines: $number_of_lines"
