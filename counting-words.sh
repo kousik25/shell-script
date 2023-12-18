@@ -10,7 +10,7 @@
 file_path="/Users/DKOUSIK/Desktop/demo.txt"
 
 # using wc command to count number of lines
-number_of_lines="wc --lines < $file_path"
+number_of_lines=`wc --lines < $file_path`
 
 # using wc command to count number of words
 number_of_words="wc --word < $file_path"
