@@ -7,7 +7,7 @@
 #!/usr/bin/bash
 
 # path to the file
-file_path="C:/Users/DKOUSIK/Desktop/demo.txt"
+file_path="/Users/DKOUSIK/Desktop/demo.txt"
 
 # using wc command to count number of lines
 number_of_lines=`wc --lines < $file_path`
