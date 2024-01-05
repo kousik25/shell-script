@@ -29,4 +29,4 @@ if [ -z "$NAME" ]; then # now wishes is optional
     exit 1
 fi
 
-echo "Hello $NAME. $WISHES. I have been learning Shell Script."
+echo "Hello $NAME, $WISHES, I have been learning Shell Script."
